@@ -16,7 +16,7 @@ scanf:
         syscall
 	li $v0, 5 #syscall para ler inteiros
         syscall
-        move $t0, $v0 #coloca valor no registrador temporario
+        add $t0, $t0, $v0 #coloca valor no registrador temporario
         jr $ra
         
 fim:
