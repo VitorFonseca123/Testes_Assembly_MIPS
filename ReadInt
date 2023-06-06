@@ -1,4 +1,4 @@
-########## HELLO WORLD
+
 .text
 .globl main
 main:
@@ -23,4 +23,4 @@ fim:
 	li $v0,10                        # termina
         syscall
 .data
-prompt: .asciiz "Digite um número inteiro: "
+prompt: .asciiz "Digite um nÃºmero inteiro: "
