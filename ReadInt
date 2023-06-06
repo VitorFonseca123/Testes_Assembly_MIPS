@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+########## 
+>>>>>>> 2a7e4d8791ca53e2ab96b7062c8ef7f155e187db
 .text
 .globl main
 main:
@@ -23,4 +27,4 @@ fim:
 	li $v0,10                        # termina
         syscall
 .data
-prompt: .asciiz "Digite um número inteiro: "
+prompt: .asciiz "Digite um nÃºmero inteiro: "
